@@ -1,3 +1,7 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
 }
@@ -70,9 +74,10 @@ input{
   border-radius: 3px;
 }
 select{
-  border: solid 1px #aaa;
+  border: 1px solid #999;
   border-radius: 3px;
   padding: 6px;
+  outline: none;
 }
 table{
   width: 100%;
@@ -90,7 +95,6 @@ td{
 .logo{
   display: flex;
   align-items: center;
-  padding: 0 10px;
 }
 .item-small{
   display: flex;
@@ -100,20 +104,13 @@ td{
 .logo h5{
   font-weight: 400;
 }
-.react-autosuggest__suggestions-container{
-  position: absolute;
-  background-color: wheat;
-  width: 192px;
-  text-align: left;
-  margin-left: 10px;
-}
-.react-autosuggest__suggestions-container li{
-  font-size: large;
-  margin: 10px 0;
-}
 input{
-  outline: none;
-  margin-left: 10px;
-  border: 1px solid #ccc;
   border-radius: 3px;
+  padding: 15px ;
+  margin-left: 10px;
+  border: 1px solid #999;
+  outline: none;
+}
+a{
+  color: #4a4a4a !important;
 }

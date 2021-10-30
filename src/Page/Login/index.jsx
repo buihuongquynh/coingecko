@@ -8,69 +8,46 @@ function Login() {
     <div className="Login">
      <div className="banner">
         <div className="row">
-          <div className="col-lg-5 col-md-12">
-            <div className="box">
-              <h1>Đăng nhập để sử dụng</h1>
-              <div className="face">
+          <div style={{width:'40%'}} className="col-lg-7">
+            <div style={{width:'100%'}} className="box">
+              <h1>Welcome back</h1>
+              <div className="face mb-5">
                 <a href="a">
                   <i className="fab fa-facebook-square" />
-                  <Link to="./home">Đăng nhập với Facebook</Link>
+                  <Link to="./home">Sign in with Facebook</Link>
                 </a>
               </div>
-              <div className="text">
-                <p>
-                  Khi bạn đăng nhập bằng facebook, mặc định bạn đồng ý với
-                  <span>Điều khoản dịch vụ</span> và
-                  <span>Chính sách bảo mật</span> của CoinGecko
-                </p>
-                <hr />
-              </div>
-              <p>Hoặc sử dụng email</p>
               <div className="form">
+                <p>Email</p>
                 <input
                   type="text"
                   placeholder="Email"
-                 
                 />
+                <p>Password</p>
                 <input
                   type="password"
                   placeholder="Mật khẩu"
                 
                 />
                 <div className="dn">
-                  <span >Đăng nhập</span>
+                  <span >Login</span>
                 </div>
-                <p>
-                  <a href="a">Quên mật khẩu?</a>
-                </p>
                 <div className="dk">
-                  <Link to="/signup">Đăng ký tài khoản mới</Link>
                   <br />
-                  <p>Bạn không đăng nhập được tài khoản?</p>
+                  <p className="font-semibold	">Having trouble creating an account?</p>
                   <p>
-                    Vui lòng gọi tới số <span>(024) 6680 5588</span>(giờ hành
-                    chính) để được hỗ trợ.
+                  Please call (024) 6680 5588 (office hours).
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-7 col-md-12">
+          <div className="col-lg-5">
             <div className="tutorial">
               <div className="tutorial_text">
-                <h1>Hướng dẫn sử dụng BotWork</h1>
-                <p>
-                  1. Đăng nhập (Đăng ký tài khoản mới nếu bạn chưa từng sử dụng
-                    BotWork tại đây)
-                </p>
-                <p>Bitcoin price today is 175,977.495 XLM with a  It has a circulating supply of 19 Million BTC coins and a total</p>
-                <p> supply of 21 Million. 24-hour trading volume of 145,319,831,050.929 XLM.</p>
-                <p> BTC price is up 2.4% in the last 24 hours.</p>
-                <p> If you are looking to buy or sell Bitcoin, Binance is currently the most active exchange.</p>
-                <iframe
-                  src="https://www.youtube.com/embed/REMS55jZFoc"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                />
+                <h1>About CoinGecko</h1>
+                <p>CoinGecko fornisce un’analisi essenziale del mercato delle criptovalute.<br/> Oltre a monitorare prezzo, volume e capitalizzazione di mercato, monitora anche la crescita <br/> della community, lo sviluppo di codice open-source, gli eventi di rilievo e gli indicatori della blockchain.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eSY0UUs62QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>

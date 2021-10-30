@@ -1,5 +1,6 @@
 import React from "react";
-import Header from "./components/header/header";
+import Header from "./components/header";
+import Footer from "./components/footer";
 import Login from "./Page/Login";
 import Home from "./Page/Home";
 import "./App.css";
@@ -15,6 +16,7 @@ function App() {
             <Route path="/home" component={Home} />
           </Switch>
         </div>
+        <Footer/>
       </Router>
     </div>
   );

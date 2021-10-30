@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect } from "react";
 import * as KEY from '../../constants/constant';
+import './item.css'
 const Item = (props) => {
   const { item } = props;
   const formatter = new Intl.NumberFormat("en-US", {

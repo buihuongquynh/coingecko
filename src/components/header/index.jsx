@@ -1,39 +1,13 @@
 import React, { useState } from "react";
 import Drop from "../drops/Drop";
-import logo from "./coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).webp";
-import Autosuggest from "react-autosuggest";
+import "./style.css";
 const Header = (props) => {
-  const { dataList} = props;
-  const [value, setValue] = useState("");
-  const [suggestions, setSuggestions] = useState([]);
-  const getSuggestions = (value) => {
-    const inputValue = value.trim().toLowerCase()
-    const inputLength = inputValue.length
-    return inputLength === 0
-      ? []
-      : dataList.filter((lang) => lang.name.toLowerCase().slice(0, inputLength) === inputValue)
-  }
-  const getSuggestionValue = (suggestion) => suggestion.name;
-  const renderSuggestion = (suggestion) => <div>{suggestion.name}</div>;
-  const onChange = (event, { newValue }) => {
-    setValue(newValue)
-  }
-  const inputProps = {
-    placeholder: "Name conins",
-    value,
-    onChange: onChange,
-  };
-  const onSuggestionsFetchRequested = ({ value }) => {
-    setSuggestions(getSuggestions(value))
-  }
-  const onSuggestionsClearRequested = () => {
-    setSuggestions([])
-  }
+  const { dataList } = props;
   return (
     <div>
-      <div style ={{paddingBottom:'20px'}} className="header">
+      <div style={{ paddingBottom: "20px" }} className="header">
         <div className="header__top">
-          <ul style={{display:'flex', alignItems:'center'}}>
+          <ul style={{ display: "flex", alignItems: "center" }}>
             <li>
               <a href="s">
                 EN <i className="fas fa-caret-down"></i>
@@ -44,11 +18,9 @@ const Header = (props) => {
                 BCH <i className="fas fa-caret-down"></i>{" "}
               </a>
             </li>
-            <li>
-              <a href="s">
-                Help{" "}
-                <img src="https://static.coingecko.com/s/candy_notification-13bfd4ea8bd89d20951b5bd2045b30c9ebb912ac6ec73c020234ab37de7be52f.svg"></img>
-              </a>
+            <li className="flex flex-row">
+              <a href="">Help</a>
+              <img src="https://static.coingecko.com/s/candy_notification-13bfd4ea8bd89d20951b5bd2045b30c9ebb912ac6ec73c020234ab37de7be52f.svg"></img>
             </li>
             <li>
               <a href="s">Sign</a>
@@ -70,9 +42,9 @@ const Header = (props) => {
         </div>
         <div className="header__menu">
           <div className="logo">
-            <img src={logo} />
+            <img src="https://static.coingecko.com/s/cg_haloween_light_mode-4b3a48e27e17965af9ad3795f8f91918e9bc4ab85d87f6a0b7d96fa6d5e0cac7.png" />
           </div>
-          <ul style={{display:'flex', alignItems:'center'}}>
+          <ul style={{ display: "flex", alignItems: "center" }}>
             <li>
               <a href="d">Home</a>
             </li>
@@ -108,24 +80,25 @@ const Header = (props) => {
           </ul>
         </div>
         <div className="header__drop">
-          <h1>Top 100 Coins by Market Capitalization</h1>
+          <h1 className="text-3xl	text-red-700	">
+            Top 100 Coins by Market Capitalization
+          </h1>
           <div className="row">
             <div className="row__right">
               <div className="drop"></div>
-              <ul style={{display:'flex', alignItems:'center'}}>
+              <ul
+                style={{
+                  display: "flex",
+                  marginLeft: "20px",
+                  alignItems: "center",
+                }}
+              >
                 <Drop />
-                <Autosuggest
-                  suggestions={suggestions}
-                  onSuggestionsFetchRequested={onSuggestionsFetchRequested}
-                  onSuggestionsClearRequested={onSuggestionsClearRequested}
-                  getSuggestionValue={getSuggestionValue}
-                  renderSuggestion={renderSuggestion}
-                  inputProps={inputProps}
-                />
+                <input className="ml-3" placeholder="Name coins" />
               </ul>
             </div>
             <div className="row__left">
-              <ul style={{display:'flex', alignItems:'center'}}>
+              <ul style={{ display: "flex", alignItems: "center" }}>
                 <li>
                   <a href="d"> Market</a>
                 </li>

@@ -42,14 +42,15 @@ iframe{
     padding: 15px 0;
 }
 .banner .box .face a{
-    color: #fff;
-    background-color: #3b5998;
-    border-color: #3b5998;
-    border: 1px solid #3b5998;
+    color: #fff !important;
+    background-color: #0B5ED7;
+    border-color: #0B5ED7;
+    border: 1px solid #0B5ED7;
     border-radius: 3px;
-    padding: 10px 20px;
+    padding: 12px 20px;  
     margin: 15px 0;
-    font-weight: 700
+    font-weight: 700;
+    font-size: 1rem;
 }
 .banner .box .text{
     font-size: 0.95em;
@@ -79,15 +80,12 @@ hr{
 }
 .banner .form input{
     border: 1px solid;
-    margin: 0;
     outline: none;
-    margin: 0 0 10px;
     font-size: 12px;
     border-radius: 2px;
     outline: none;
     box-shadow: none;
     border-color: rgba(0,0,0,.1);
-    padding: 10px 18px;
     color: rgba(0,0,0,.87);
     width: 100%;
 }
@@ -140,9 +138,7 @@ hr{
     line-height: 30px;
     color: #666;
 }
-.tutorial_text p{
-margin: 15px 0;
-}
+
 /* start footer */
 .footer{
     line-height: 26px;
