@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/coingecko/static/css/main.c0b2d0c7.chunk.css",
-    "main.js": "/coingecko/static/js/main.6fd6d4e2.chunk.js",
-    "main.js.map": "/coingecko/static/js/main.6fd6d4e2.chunk.js.map",
-    "runtime-main.js": "/coingecko/static/js/runtime-main.c97efeb0.js",
-    "runtime-main.js.map": "/coingecko/static/js/runtime-main.c97efeb0.js.map",
-    "static/js/2.4746cbb7.chunk.js": "/coingecko/static/js/2.4746cbb7.chunk.js",
-    "static/js/2.4746cbb7.chunk.js.map": "/coingecko/static/js/2.4746cbb7.chunk.js.map",
-    "static/js/3.19932258.chunk.js": "/coingecko/static/js/3.19932258.chunk.js",
-    "static/js/3.19932258.chunk.js.map": "/coingecko/static/js/3.19932258.chunk.js.map",
+    "main.js": "/coingecko/static/js/main.e8901cf2.chunk.js",
+    "main.js.map": "/coingecko/static/js/main.e8901cf2.chunk.js.map",
+    "runtime-main.js": "/coingecko/static/js/runtime-main.b7f36914.js",
+    "runtime-main.js.map": "/coingecko/static/js/runtime-main.b7f36914.js.map",
+    "static/js/2.1c0e93eb.chunk.js": "/coingecko/static/js/2.1c0e93eb.chunk.js",
+    "static/js/2.1c0e93eb.chunk.js.map": "/coingecko/static/js/2.1c0e93eb.chunk.js.map",
+    "static/js/3.bd54dfd5.chunk.js": "/coingecko/static/js/3.bd54dfd5.chunk.js",
+    "static/js/3.bd54dfd5.chunk.js.map": "/coingecko/static/js/3.bd54dfd5.chunk.js.map",
     "index.html": "/coingecko/index.html",
     "static/css/main.c0b2d0c7.chunk.css.map": "/coingecko/static/css/main.c0b2d0c7.chunk.css.map",
-    "static/js/2.4746cbb7.chunk.js.LICENSE.txt": "/coingecko/static/js/2.4746cbb7.chunk.js.LICENSE.txt",
+    "static/js/2.1c0e93eb.chunk.js.LICENSE.txt": "/coingecko/static/js/2.1c0e93eb.chunk.js.LICENSE.txt",
     "static/media/coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).6dcea3b1.webp": "/coingecko/static/media/coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).6dcea3b1.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.c97efeb0.js",
-    "static/js/2.4746cbb7.chunk.js",
+    "static/js/runtime-main.b7f36914.js",
+    "static/js/2.1c0e93eb.chunk.js",
     "static/css/main.c0b2d0c7.chunk.css",
-    "static/js/main.6fd6d4e2.chunk.js"
+    "static/js/main.e8901cf2.chunk.js"
   ]
 }
