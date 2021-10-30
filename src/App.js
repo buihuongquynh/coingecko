@@ -11,12 +11,12 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
         <Header />
         <div className="content">
           <Switch>
-            <Route basename="/home" exact component={Home} />
-            <Route basename="/coingecko" exact component={Login} />
+            <Route path="/home" exact component={Home} />
+            <Route exact path="/login" exact component={Login} />
           </Switch>
         </div>
       </Router>
