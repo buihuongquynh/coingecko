@@ -15,9 +15,8 @@ function App() {
         <Header />
         <div className="content">
           <Switch>
-          <Route exact path="/login" component={Login} />
+          <Route path="/login" exact component={Login} />
           <Route path="/home" component={Home}/>
-            
           </Switch>
         </div>
       </Router >
