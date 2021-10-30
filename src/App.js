@@ -15,8 +15,8 @@ function App() {
         <Header />
         <div className="content">
           <Switch>
-            <Route path="/home" exact component={Home} />
-            <Route path="/coingecko" exact component={Login} />
+            <Route basename="/home" exact component={Home} />
+            <Route basename="/coingecko" exact component={Login} />
           </Switch>
         </div>
       </Router>
