@@ -11,8 +11,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Home/>
-      {/* <BrowserRouter basename="/project">
+      <Router basename="/project">
         <Header />
         <div className="content">
           <Switch>
@@ -21,7 +20,7 @@ function App() {
             
           </Switch>
         </div>
-      </BrowserRouter > */}
+      </Router >
     </div>
   );
 }
