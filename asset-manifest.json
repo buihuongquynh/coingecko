@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/coingecko/static/css/main.a2a463fc.chunk.css",
-    "main.js": "/coingecko/static/js/main.1338c82f.chunk.js",
-    "main.js.map": "/coingecko/static/js/main.1338c82f.chunk.js.map",
-    "runtime-main.js": "/coingecko/static/js/runtime-main.ae117b43.js",
-    "runtime-main.js.map": "/coingecko/static/js/runtime-main.ae117b43.js.map",
-    "static/js/2.e8c445d0.chunk.js": "/coingecko/static/js/2.e8c445d0.chunk.js",
-    "static/js/2.e8c445d0.chunk.js.map": "/coingecko/static/js/2.e8c445d0.chunk.js.map",
-    "static/js/3.325e1233.chunk.js": "/coingecko/static/js/3.325e1233.chunk.js",
-    "static/js/3.325e1233.chunk.js.map": "/coingecko/static/js/3.325e1233.chunk.js.map",
-    "index.html": "/coingecko/index.html",
-    "static/css/main.a2a463fc.chunk.css.map": "/coingecko/static/css/main.a2a463fc.chunk.css.map",
-    "static/js/2.e8c445d0.chunk.js.LICENSE.txt": "/coingecko/static/js/2.e8c445d0.chunk.js.LICENSE.txt",
-    "static/media/coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).6dcea3b1.webp": "/coingecko/static/media/coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).6dcea3b1.webp"
+    "main.css": "/static/css/main.38341f91.chunk.css",
+    "main.js": "/static/js/main.2e18abd7.chunk.js",
+    "main.js.map": "/static/js/main.2e18abd7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9a9b22ea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9a9b22ea.js.map",
+    "static/js/2.849bc385.chunk.js": "/static/js/2.849bc385.chunk.js",
+    "static/js/2.849bc385.chunk.js.map": "/static/js/2.849bc385.chunk.js.map",
+    "static/js/3.bad3ac8d.chunk.js": "/static/js/3.bad3ac8d.chunk.js",
+    "static/js/3.bad3ac8d.chunk.js.map": "/static/js/3.bad3ac8d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.38341f91.chunk.css.map": "/static/css/main.38341f91.chunk.css.map",
+    "static/js/2.849bc385.chunk.js.LICENSE.txt": "/static/js/2.849bc385.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae117b43.js",
-    "static/js/2.e8c445d0.chunk.js",
-    "static/css/main.a2a463fc.chunk.css",
-    "static/js/main.1338c82f.chunk.js"
+    "static/js/runtime-main.9a9b22ea.js",
+    "static/js/2.849bc385.chunk.js",
+    "static/css/main.38341f91.chunk.css",
+    "static/js/main.2e18abd7.chunk.js"
   ]
 }
