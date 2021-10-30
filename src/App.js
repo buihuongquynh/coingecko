@@ -11,15 +11,16 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router basename="/project">
+      <BrowserRouter basename="/project">
         <Header />
         <div className="content">
           <Switch>
-            <Route path="/home" component={Home}/>
-            <Route exact path="/login" component={Login} />
+          <Route exact path="/login" component={Login} />
+          <Route path="/home" component={Home}/>
+            
           </Switch>
         </div>
-      </Router>
+      </BrowserRouter >
     </div>
   );
 }
