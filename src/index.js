@@ -7,7 +7,9 @@ import Store from './state/store/store';
 // Import the functions you need from the SDKs you need
 ReactDOM.render(
   <React.StrictMode>
-    <Store><App /></Store>
+    <Store>
+      <App />
+      </Store>
   </React.StrictMode>,
   document.getElementById('root')
 );
