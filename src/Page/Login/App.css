@@ -41,16 +41,12 @@ iframe{
     color: #666;
     padding: 15px 0;
 }
-.banner .box .face a{
-    color: #fff !important;
-    background-color: #0B5ED7;
-    border-color: #0B5ED7;
-    border: 1px solid #0B5ED7;
-    border-radius: 3px;
-    padding: 12px 20px;  
-    margin: 15px 0;
-    font-weight: 700;
-    font-size: 1rem;
+.kep-login-facebook {
+   padding: 8px 20px;
+   border-radius: 3px;
+   background-color: #0b5ed7 !important;
+   border: none !important;
+   font-size: 14px !important;
 }
 .banner .box .text{
     font-size: 0.95em;

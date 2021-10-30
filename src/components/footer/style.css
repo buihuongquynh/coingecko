@@ -1,12 +1,13 @@
 .footer li{
     font-size: 10px;
-    text-align: left;
 }
 .footer ul{
     flex-direction: column;
-    text-align: left;
 }
 
 .footer .btn span{
 color: aliceblue;
+}
+.footer input{
+    width: 80%;
 }
