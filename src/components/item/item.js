@@ -2,8 +2,10 @@
 import React, { useEffect } from "react";
 import * as KEY from '../../constants/constant';
 import './item.css'
+import {useHistory } from 'react-router-dom';
 const Item = (props) => {
   const { item } = props;
+  console.log(item)
   const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: props.itemCurrency,
@@ -13,7 +15,7 @@ const Item = (props) => {
   let percent_1h = parseFloat(item[KEY.PERCENT_1H]).toFixed(2);
   let percent_24h = parseFloat(item[KEY.PERCENT_24H]).toFixed(2);
   let percent_7d = parseFloat(item[KEY.PERCENT_7D]).toFixed(2);
-
+  const history = useHistory();
   const arrItem = (
     <>
       <td className="item star">
@@ -57,7 +59,7 @@ const Item = (props) => {
       <td className="item">{formatter.format(item[KEY.MKT_CAP])}</td>
     </>
   );
-  return <tr className="list-row-item">{arrItem}</tr>;
+  return <tr onClick={()=>{history.push({pathname:`/detail/${item.id}`})}} className="list-row-item">{arrItem}</tr>;
 };
 
 export default Item;

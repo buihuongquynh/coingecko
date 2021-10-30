@@ -1,12 +1,45 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
-import { Link } from "react-router-dom";
+import { Redirect } from "react-router-dom";
+import {useHistory } from 'react-router-dom';
 import FacebookLogin from "react-facebook-login";
+import { Button, notification, Divider, Space } from 'antd';
 function Login() {
+  const [login, setLogin] = useState({
+    email:"",
+    passWord:"",
+  })
+  const history = useHistory();
   const responseFacebook = (response) => {
     console.log(response);
   };
-
+const handleEmail = (e)=>{
+  setLogin({...login, email: e.target.value})
+  console.log(e.target.value)
+}
+const handlePassWord = (e)=>{
+  setLogin({...login, passWord: e.target.value})
+}
+const openNotification = (type, message, description) => {
+  notification[type]({
+    message,
+    description,
+    duration: 2.5,
+  })
+}
+const handleLogin = () =>{
+  if(login.email === "user@gmail.com" && login.passWord === "123456"){
+    history.push({pathname:'/home'})
+    openNotification('success', '正常にログインしました')
+  }
+  else{
+    console.log("loi roi nhe")
+    openNotification(
+      'error',
+      'メールアドレスもしくはパスワードが間違っています',
+    )
+  }
+}
   return (
     <div className="Login">
       <div className="banner">
@@ -14,27 +47,21 @@ function Login() {
           <div style={{ width: "40%" }} className="col-lg-7">
             <div style={{ width: "100%" }} className="box">
               <h1>Welcome back</h1>
-              {/* <div className="face mb-5">
-                <a href="a">
-                  <i className="fab fa-facebook-square" />
-                  <Link to="./home">Sign in with Facebook</Link>
-                </a>
-              </div> */}
               <FacebookLogin
                 appId="637128943945680"
                 autoLoad={true}
                 fields="name,email,picture"
-                // onClick={componentClicked}
+                onClick={()=>{history.push({pathname:'/home'})}}
                 icon="fa-facebook"
                 callback={responseFacebook}
               />
               
               <div className="form">
                 <p>Email</p>
-                <input type="text" placeholder="Enter your email" />
+                <input defaultValue="user@gmail.com" onChange={handleEmail} type="text" placeholder="Enter your email" />
                 <p>Password</p>
-                <input type="password" placeholder="Enter your password" />
-                <div className="dn">
+                <input defaultValue="123456" onChange={handlePassWord} type="password" placeholder="Enter your password" />
+                <div onClick = {handleLogin} className="dn">
                   <span>Login</span>
                 </div>
                 <div className="dk">

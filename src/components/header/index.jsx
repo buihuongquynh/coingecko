@@ -23,10 +23,10 @@ const Header = (props) => {
               <img src="https://static.coingecko.com/s/candy_notification-13bfd4ea8bd89d20951b5bd2045b30c9ebb912ac6ec73c020234ab37de7be52f.svg"></img>
             </li>
             <li>
-              <a href="s">Sign</a>
+              <a href="/">Login</a>
             </li>
             <li>
-              <a href="s">Sign Up</a>
+              <a href="/">LogOut</a>
             </li>
             <li>
               <a href="s">
@@ -80,7 +80,7 @@ const Header = (props) => {
           </ul>
         </div>
         <div className="header__drop">
-          <h1 className="text-3xl	text-red-700	">
+          <h1 className="text-4xl	text-red-700">
             Top 100 Coins by Market Capitalization
           </h1>
           <div className="row">

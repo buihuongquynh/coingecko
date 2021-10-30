@@ -6,6 +6,9 @@ const Table = (props) => {
   const { dataList } = props;
   let listData = null;
   const dispatch = useDispatch();
+  const handleRow = ()=>{
+
+  }
   if (dataList) {
     listData = dataList.map((item, index) => (
       <Item itemCurrency={props.currency} key={index} item={item} />
