@@ -11,7 +11,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router basename="/project">
+      <Router basename="/">
         <Header />
         <div className="content">
           <Switch>
