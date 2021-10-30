@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/coningecko/static/css/main.c0b2d0c7.chunk.css",
-    "main.js": "/coningecko/static/js/main.3f438074.chunk.js",
-    "main.js.map": "/coningecko/static/js/main.3f438074.chunk.js.map",
-    "runtime-main.js": "/coningecko/static/js/runtime-main.881aa297.js",
-    "runtime-main.js.map": "/coningecko/static/js/runtime-main.881aa297.js.map",
-    "static/js/2.9e7e83e7.chunk.js": "/coningecko/static/js/2.9e7e83e7.chunk.js",
-    "static/js/2.9e7e83e7.chunk.js.map": "/coningecko/static/js/2.9e7e83e7.chunk.js.map",
-    "static/js/3.bd54dfd5.chunk.js": "/coningecko/static/js/3.bd54dfd5.chunk.js",
-    "static/js/3.bd54dfd5.chunk.js.map": "/coningecko/static/js/3.bd54dfd5.chunk.js.map",
-    "index.html": "/coningecko/index.html",
-    "static/css/main.c0b2d0c7.chunk.css.map": "/coningecko/static/css/main.c0b2d0c7.chunk.css.map",
-    "static/js/2.9e7e83e7.chunk.js.LICENSE.txt": "/coningecko/static/js/2.9e7e83e7.chunk.js.LICENSE.txt",
-    "static/media/coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).6dcea3b1.webp": "/coningecko/static/media/coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).6dcea3b1.webp"
+    "main.css": "/coingecko/static/css/main.c0b2d0c7.chunk.css",
+    "main.js": "/coingecko/static/js/main.8e93dbf2.chunk.js",
+    "main.js.map": "/coingecko/static/js/main.8e93dbf2.chunk.js.map",
+    "runtime-main.js": "/coingecko/static/js/runtime-main.c6ddcb56.js",
+    "runtime-main.js.map": "/coingecko/static/js/runtime-main.c6ddcb56.js.map",
+    "static/js/2.849bc385.chunk.js": "/coingecko/static/js/2.849bc385.chunk.js",
+    "static/js/2.849bc385.chunk.js.map": "/coingecko/static/js/2.849bc385.chunk.js.map",
+    "static/js/3.bad3ac8d.chunk.js": "/coingecko/static/js/3.bad3ac8d.chunk.js",
+    "static/js/3.bad3ac8d.chunk.js.map": "/coingecko/static/js/3.bad3ac8d.chunk.js.map",
+    "index.html": "/coingecko/index.html",
+    "static/css/main.c0b2d0c7.chunk.css.map": "/coingecko/static/css/main.c0b2d0c7.chunk.css.map",
+    "static/js/2.849bc385.chunk.js.LICENSE.txt": "/coingecko/static/js/2.849bc385.chunk.js.LICENSE.txt",
+    "static/media/coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).6dcea3b1.webp": "/coingecko/static/media/coingecko-logo-d13d6bcceddbb003f146b33c2f7e8193d72b93bb343d38e392897c3df3e78bdd (1).6dcea3b1.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.881aa297.js",
-    "static/js/2.9e7e83e7.chunk.js",
+    "static/js/runtime-main.c6ddcb56.js",
+    "static/js/2.849bc385.chunk.js",
     "static/css/main.c0b2d0c7.chunk.css",
-    "static/js/main.3f438074.chunk.js"
+    "static/js/main.8e93dbf2.chunk.js"
   ]
 }
