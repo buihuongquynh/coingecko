@@ -50,6 +50,16 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.16.0",
+    "babel-cli": "^6.26.0",
     "gh-pages": "^3.2.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-react-jsx"
+    ]
   }
 }
