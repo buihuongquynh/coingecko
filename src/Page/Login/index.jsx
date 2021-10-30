@@ -14,7 +14,7 @@ function Login() {
               <div className="face">
                 <a href="a">
                   <i className="fab fa-facebook-square" />
-                  <span>Đăng nhập với Facebook</span>
+                  <Link to="./home">Đăng nhập với Facebook</Link>
                 </a>
               </div>
               <div className="text">

@@ -13,7 +13,6 @@ function Home() {
   };
   return (
     <div className="App">
-      <Header dataList={dataList} />
       <div style={{ overflow: "auto", height: "450px" }}>
         <Table dataList={dataList} currency={valCurrency} query={query} />
       </div>

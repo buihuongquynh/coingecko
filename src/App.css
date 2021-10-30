@@ -13,10 +13,10 @@ a{
   text-decoration: none;
   color: #333;
 }
-/* ul{
+ul{
   display: flex;
   align-items: center;
-} */
+}
 .header__top{
   display: flex;
   align-items: flex-end;
@@ -62,13 +62,13 @@ input{
   align-items: center;
   justify-content: space-between;
 }
-/* .row li{
+.row li{
   margin: 5px;
   font-weight: 600;
   border: solid 1px #aaa;
   padding: 3px;
   border-radius: 3px;
-} */
+}
 select{
   border: solid 1px #aaa;
   border-radius: 3px;
