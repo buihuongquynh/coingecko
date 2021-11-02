@@ -3,6 +3,7 @@ import Item from "../item/item";
 import { useDispatch } from "react-redux";
 import { Actions } from "../../state/actions";
 import "./style.css"
+import { Spin } from 'antd';
 const Table = (props) => {
   const { dataList } = props;
   let listData = null;
@@ -12,6 +13,7 @@ const Table = (props) => {
       <Item itemCurrency={props.currency} key={index} item={item} />
     ));
   }
+
   useEffect(() => {
     try {
       dispatch({ type: Actions.GET_DATA, payload: props.query });
@@ -37,7 +39,7 @@ const Table = (props) => {
           </div>
           <table>{listData}</table>
         </>
-      ) : null}
+      ) :  <Spin style={{margin: "100px 0"}}/>}
     </div>
   );
 };
