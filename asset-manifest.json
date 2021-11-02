@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/coingecko/static/css/main.7f027d4c.chunk.css",
-    "main.js": "/coingecko/static/js/main.803dd845.chunk.js",
-    "main.js.map": "/coingecko/static/js/main.803dd845.chunk.js.map",
-    "runtime-main.js": "/coingecko/static/js/runtime-main.a27ba4ad.js",
-    "runtime-main.js.map": "/coingecko/static/js/runtime-main.a27ba4ad.js.map",
+    "main.css": "/coingecko/static/css/main.b42b569e.chunk.css",
+    "main.js": "/coingecko/static/js/main.2e05d73f.chunk.js",
+    "main.js.map": "/coingecko/static/js/main.2e05d73f.chunk.js.map",
+    "runtime-main.js": "/coingecko/static/js/runtime-main.32f2b184.js",
+    "runtime-main.js.map": "/coingecko/static/js/runtime-main.32f2b184.js.map",
     "static/css/2.1d694c59.chunk.css": "/coingecko/static/css/2.1d694c59.chunk.css",
-    "static/js/2.52142fb9.chunk.js": "/coingecko/static/js/2.52142fb9.chunk.js",
-    "static/js/2.52142fb9.chunk.js.map": "/coingecko/static/js/2.52142fb9.chunk.js.map",
-    "static/js/3.58f06d0c.chunk.js": "/coingecko/static/js/3.58f06d0c.chunk.js",
-    "static/js/3.58f06d0c.chunk.js.map": "/coingecko/static/js/3.58f06d0c.chunk.js.map",
+    "static/js/2.999c9bfb.chunk.js": "/coingecko/static/js/2.999c9bfb.chunk.js",
+    "static/js/2.999c9bfb.chunk.js.map": "/coingecko/static/js/2.999c9bfb.chunk.js.map",
+    "static/js/3.330a688b.chunk.js": "/coingecko/static/js/3.330a688b.chunk.js",
+    "static/js/3.330a688b.chunk.js.map": "/coingecko/static/js/3.330a688b.chunk.js.map",
     "index.html": "/coingecko/index.html",
     "static/css/2.1d694c59.chunk.css.map": "/coingecko/static/css/2.1d694c59.chunk.css.map",
-    "static/css/main.7f027d4c.chunk.css.map": "/coingecko/static/css/main.7f027d4c.chunk.css.map",
-    "static/js/2.52142fb9.chunk.js.LICENSE.txt": "/coingecko/static/js/2.52142fb9.chunk.js.LICENSE.txt"
+    "static/css/main.b42b569e.chunk.css.map": "/coingecko/static/css/main.b42b569e.chunk.css.map",
+    "static/js/2.999c9bfb.chunk.js.LICENSE.txt": "/coingecko/static/js/2.999c9bfb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a27ba4ad.js",
+    "static/js/runtime-main.32f2b184.js",
     "static/css/2.1d694c59.chunk.css",
-    "static/js/2.52142fb9.chunk.js",
-    "static/css/main.7f027d4c.chunk.css",
-    "static/js/main.803dd845.chunk.js"
+    "static/js/2.999c9bfb.chunk.js",
+    "static/css/main.b42b569e.chunk.css",
+    "static/js/main.2e05d73f.chunk.js"
   ]
 }
