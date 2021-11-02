@@ -57,9 +57,9 @@ const Footer = () => {
         <Col span={8}>
           <p>Ti interessano aggiornamenti sulle criptovalute?</p>
           <p>Iscriviti alla nostra newsletter gratuita e riceverai ultime notizie, aggiornamenti e relazioni sulle criptovalute.</p>
-          <div className="flex flex-col btn">
+          <div className="flex items-center btn">
           <input type="text" placeholder="Enter you email" />
-          <Button style={{marginTop:"10px" ,width:'20%', backgroundColor:"#4E682A", border: "none"}} type="primary">Iscriviti</Button>
+          <Button style={{marginLeft:"10px" ,width:'20%', backgroundColor:"#4E682A", border: "none"}} type="primary">Iscriviti</Button>
           </div>
         </Col>
       </Row>

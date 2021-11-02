@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Drop from "../drops/Drop";
 import "./style.css";
+import {useHistory } from 'react-router-dom';
 const Header = (props) => {
   const { dataList } = props;
+  const history = useHistory();
   return (
     <div>
       <div style={{ paddingBottom: "20px" }} className="header">
@@ -20,13 +22,13 @@ const Header = (props) => {
             </li>
             <li className="flex flex-row">
               <a href="">Help</a>
-              <img src="https://static.coingecko.com/s/candy_notification-13bfd4ea8bd89d20951b5bd2045b30c9ebb912ac6ec73c020234ab37de7be52f.svg"></img>
+              <img onClick={()=>{history.push({pathname:'/'})}} src="https://static.coingecko.com/s/candy_notification-13bfd4ea8bd89d20951b5bd2045b30c9ebb912ac6ec73c020234ab37de7be52f.svg"></img>
             </li>
             <li>
-              <a href="/">Login</a>
+              <a onClick={()=>{history.push({pathname:'/'})}}>Login</a>
             </li>
             <li>
-              <a href="/">LogOut</a>
+              <a onClick={()=>{history.push({pathname:'/'})}}>LogOut</a>
             </li>
             <li>
               <a href="s">

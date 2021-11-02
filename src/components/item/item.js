@@ -35,16 +35,16 @@ const Item = (props) => {
       </td>
       <td className="item">{formatter.format(item[KEY.PRICE])}</td>
       {item[KEY.PERCENT_1H] > 0 ? (
-        <td className="item green-num">{percent_1h}%</td>
+        <td className="item colors.red green-num">{percent_1h}%</td>
       ) : (
-        <td className="item red-num">
+        <td className="item colors.red red-num">
           {isNaN(percent_1h) ? `--` : `${percent_1h}%`}
         </td>
       )}
       {item[KEY.PERCENT_24H] > 0 ? (
-        <td className="item green-num">{percent_24h}%</td>
+        <td className="item colors.red green-num">{percent_24h}%</td>
       ) : (
-        <td className="item red-num">
+        <td className="item colors.red red-num">
           {isNaN(percent_24h) ? `--` : `${percent_24h}%`}
         </td>
       )}
