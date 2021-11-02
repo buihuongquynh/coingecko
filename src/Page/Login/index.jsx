@@ -6,8 +6,8 @@ import FacebookLogin from "react-facebook-login";
 import { Button, notification, Divider, Space } from 'antd';
 function Login() {
   const [login, setLogin] = useState({
-    email:"",
-    passWord:"",
+    email:"user@gmail.com",
+    passWord:"123456",
   })
   const history = useHistory();
   const responseFacebook = (response) => {

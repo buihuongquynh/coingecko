@@ -22,44 +22,48 @@ const Item = (props) => {
         <span>
           <i className="far fa-star"></i>
         </span>{" "}
-        {item[KEY.MARKET_RANK]}
+        <a href="">{item[KEY.MARKET_RANK]}</a>
+        
       </td>
 
       <td className="item logo">
         {" "}
         <div className="item-small">
           {" "}
-          <img src={item[KEY.IMAGE]} /> <h3>{item["name"]}</h3>
+          <a href=""><img src={item[KEY.IMAGE]} /></a><a href=""><h3>{item["name"]}</h3></a> 
         </div>{" "}
-        <h5 className="upcase">{item[KEY.SYMBOL]}</h5>{" "}
+        <h5 className="upcase"><a href="">{item[KEY.SYMBOL]}</a></h5>{" "}
       </td>
       <td className="item">{formatter.format(item[KEY.PRICE])}</td>
       {item[KEY.PERCENT_1H] > 0 ? (
-        <td className="item colors.red green-num">{percent_1h}%</td>
+        <td className="item colors.red green-num"><a href="">{percent_1h}%</a></td>
       ) : (
         <td className="item colors.red red-num">
-          {isNaN(percent_1h) ? `--` : `${percent_1h}%`}
+          <a href="">{isNaN(percent_1h) ? `--` : `${percent_1h}%`}</a>
+          
         </td>
       )}
       {item[KEY.PERCENT_24H] > 0 ? (
-        <td className="item colors.red green-num">{percent_24h}%</td>
+        <td className="item colors.red green-num"><a href="">{percent_24h}%</a></td>
       ) : (
         <td className="item colors.red red-num">
-          {isNaN(percent_24h) ? `--` : `${percent_24h}%`}
+          <a href=""> {isNaN(percent_24h) ? `--` : `${percent_24h}%`}</a>
+         
         </td>
       )}
       {item[KEY.PERCENT_7D] > 0 ? (
-        <td className="item green-num">{percent_7d}%</td>
+        <td className="item green-num"><a href="">{percent_7d}%</a></td>
       ) : (
         <td className="item red-num">
-          {isNaN(percent_7d) ? `--` : `${percent_7d}%`}
+          <a href=""> {isNaN(percent_7d) ? `--` : `${percent_7d}%`}</a>
+         
         </td>
       )}
-      <td className="item">{formatter.format(item[KEY.VOLUME])}</td>
-      <td className="item">{formatter.format(item[KEY.MKT_CAP])}</td>
+      <td className="item"><a href="">{formatter.format(item[KEY.VOLUME])}</a></td>
+      <td className="item"><a href="">{formatter.format(item[KEY.MKT_CAP])}</a></td>
     </>
   );
-  return <tr onClick={()=>{history.push({pathname:`/detail/${item.id}`})}} className="list-row-item">{arrItem}</tr>;
+  return <tr className="rowItem" onClick={()=>{history.push({pathname:`/detail/${item.id}`})}} className="list-row-item">{arrItem}</tr>;
 };
 
 export default Item;

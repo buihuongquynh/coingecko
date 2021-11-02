@@ -22,7 +22,7 @@ const Header = (props) => {
             </li>
             <li className="flex flex-row">
               <a href="">Help</a>
-              <img onClick={()=>{history.push({pathname:'/'})}} src="https://static.coingecko.com/s/candy_notification-13bfd4ea8bd89d20951b5bd2045b30c9ebb912ac6ec73c020234ab37de7be52f.svg"></img>
+              <img src="https://static.coingecko.com/s/candy_notification-13bfd4ea8bd89d20951b5bd2045b30c9ebb912ac6ec73c020234ab37de7be52f.svg"></img>
             </li>
             <li>
               <a onClick={()=>{history.push({pathname:'/'})}}>Login</a>
@@ -44,7 +44,7 @@ const Header = (props) => {
         </div>
         <div className="header__menu">
           <div className="logo">
-            <img src="https://static.coingecko.com/s/cg_haloween_light_mode-4b3a48e27e17965af9ad3795f8f91918e9bc4ab85d87f6a0b7d96fa6d5e0cac7.png" />
+            <a><img  onClick={()=>{history.push({pathname:'/home'})}} src="https://static.coingecko.com/s/cg_haloween_light_mode-4b3a48e27e17965af9ad3795f8f91918e9bc4ab85d87f6a0b7d96fa6d5e0cac7.png" /></a>
           </div>
           <ul style={{ display: "flex", alignItems: "center" }}>
             <li>
@@ -96,7 +96,7 @@ const Header = (props) => {
                 }}
               >
                 <Drop />
-                <input className="ml-3" placeholder="Name coins" />
+               
               </ul>
             </div>
             <div className="row__left">

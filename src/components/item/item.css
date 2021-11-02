@@ -1,7 +1,13 @@
 .item{
     padding: 5px 0;
-   
+    font-size: initial;
 }
 tr{
     border-bottom: .1px solid rgb(230, 221, 221);
+}
+.rowItem:hover{
+background-color: #999999;
+}
+.list-row-item:hover{
+    background: antiquewhite;;
 }

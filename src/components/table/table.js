@@ -27,11 +27,11 @@ const Table = (props) => {
               <li>Coin</li>
             </ul>
             <ul style={{width:"55%"}}>
-              <li style={{marginRight:"64px"}}>Price</li>
-              <li  style={{marginRight:"85px"}}>1h</li>
-              <li  style={{marginRight:"95px"}}>2h</li>
+              <li style={{marginRight:"70px"}}>Price</li>
+              <li  style={{marginRight:"90px"}}>1h</li>
+              <li  style={{marginRight:"100px"}}>2h</li>
               <li  style={{marginRight:"110px"}}>7d</li>
-              <li  style={{marginRight:"110px"}}>24h Volume</li>
+              <li  style={{marginRight:"115px"}}>24h Volume</li>
               <li>Mkt Cap</li>
             </ul>
           </div>
