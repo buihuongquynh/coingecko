@@ -132,7 +132,7 @@ function Detail() {
               <span className="phantram">0.1%</span>
             </div>{" "}
           </div>
-          <ul className="share">
+          <ul className="share my-4">
             <li>
               <ShareAltOutlined />
             </li>
@@ -143,9 +143,9 @@ function Detail() {
               <StarOutlined />
             </li>
           </ul>
-          <div className="progress"></div>
+          <div style={{marginBottom:"5px", marginTop:"20px"}} className="progress"></div>
           <ul
-            style={{ width: "50%", fontWeight: "600" }}
+            style={{ marginBottom:"10px",width: "50%", fontWeight: "600" }}
             className="flex justify-between mt-1"
           >
             <li>160,174.213 XLM</li>

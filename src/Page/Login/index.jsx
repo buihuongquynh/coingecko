@@ -58,9 +58,9 @@ const handleLogin = () =>{
               
               <div className="form">
                 <p>Email</p>
-                <input defaultValue="user@gmail.com" onChange={handleEmail} type="text" placeholder="Enter your email" />
+                <input style={{marginLeft:"0px"}} defaultValue="user@gmail.com" onChange={handleEmail} type="text" placeholder="Enter your email" />
                 <p>Password</p>
-                <input defaultValue="123456" onChange={handlePassWord} type="password" placeholder="Enter your password" />
+                <input style={{marginLeft:"0px"}} defaultValue="123456" onChange={handlePassWord} type="password" placeholder="Enter your password" />
                 <div onClick = {handleLogin} className="dn">
                   <span>Login</span>
                 </div>

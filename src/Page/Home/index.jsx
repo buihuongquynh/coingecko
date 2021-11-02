@@ -10,6 +10,7 @@ function Home() {
     vs_currency: valCurrency,
     price_change_percentage: [PER_1h, PER_24h, PER_7d],
   };
+  console.log(dataList)
   return (
     <div className="App">
       <div>

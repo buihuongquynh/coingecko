@@ -5,7 +5,6 @@ import './item.css'
 import {useHistory } from 'react-router-dom';
 const Item = (props) => {
   const { item } = props;
-  console.log(item)
   const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: props.itemCurrency,
