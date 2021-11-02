@@ -24,14 +24,14 @@ const Table = (props) => {
           <div style={{fontWeight:"600"}} className="flex">
             <ul style={{width:"45%"}}>
               <li style ={{width:"15%"}}>#</li>
-              <li>Coin</li>
+              <li style={{marginLeft:"50px"}}>Coin</li>
             </ul>
             <ul style={{width:"55%"}}>
-              <li style={{marginRight:"70px"}}>Price</li>
-              <li  style={{marginRight:"90px"}}>1h</li>
-              <li  style={{marginRight:"100px"}}>2h</li>
-              <li  style={{marginRight:"110px"}}>7d</li>
-              <li  style={{marginRight:"115px"}}>24h Volume</li>
+              <li style={{marginLeft:"35px",marginRight:"88px"}}>Price</li>
+              <li  style={{marginRight:"80px"}}>1h</li>
+              <li  style={{marginRight:"80px"}}>2h</li>
+              <li  style={{marginRight:"105px"}}>7d</li>
+              <li  style={{marginRight:"110px"}}>24h Volume</li>
               <li>Mkt Cap</li>
             </ul>
           </div>
