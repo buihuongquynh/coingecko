@@ -5,3 +5,8 @@ h1{
 input{
     outline: none;
 }
+option{
+    margin: 3px 0;
+    font-size: 1.1rem;
+    outline: none;
+}

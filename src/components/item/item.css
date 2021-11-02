@@ -11,3 +11,6 @@ background-color: #999999;
 .list-row-item:hover{
     background: antiquewhite;;
 }
+.list-row-item{
+    transition: 0.5s;
+}

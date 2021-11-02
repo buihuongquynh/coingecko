@@ -66,6 +66,9 @@ iframe{
 .banner .box .text span{
     color: #00b14f;
 }
+.banner .dn span:hover{
+    opacity: 0.7;
+}
 .banner .box p{
     color: #666;
     margin: 12px 0;
